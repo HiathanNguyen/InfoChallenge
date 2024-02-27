@@ -14,5 +14,5 @@ DAIRY = DAIRY[DAIRY['PC'] != 0]
 
 DAIRY = DAIRY[DAIRY['SR Mean per 100g'] != 0]
 
-
-print(DAIRY[0:10])
+topten = DAIRY[0:10]
+# then make plot before pushing
