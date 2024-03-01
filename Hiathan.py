@@ -14,7 +14,12 @@ topten = LEGUME[0:11]
 
 
 
+<<<<<<< HEAD
 fig = px.histogram(topten, y='PC', x='FF_Component', title='Percent Change in Top 10 Sausages and Luncheon Meats Nutrients',text_auto='.3s', labels={'PC':'Percent Change of Nutrient','FF_Component':'Nutrient'})
+=======
+fig = px.histogram(topten, y='PC', x='FF_Component', title='Percent Change in Top 10 Sausages and Luncheon Meats Nutrients',text_auto='.3s',
+                   labels={'PC':'Percent Change of Nutrient','FF_Component':'Nutrient'})
+>>>>>>> f3ebde09cb908042d5a7089e741ff0458b7aa054
 fig.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
 fig.update_layout(barmode='stack', xaxis={'categoryorder':'total descending'})
 fig.show()
